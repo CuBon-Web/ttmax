@@ -34,7 +34,8 @@
     </style>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script>
-      window.__ENV__ = window.__ENV || {}; __ENV__.link ='https://ttmax.azas.vn/';
+      window.__ENV__ = window.__ENV || {};
+      __ENV__.link = @json(rtrim(config('app.url'), '/') . '/');
       window.Laravel = {!! 
           json_encode([
               'csrf_token' => csrf_token(),

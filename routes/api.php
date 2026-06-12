@@ -115,12 +115,6 @@ Route::group(['namespace'=>'Api','middleware'=>'auth:api'],function(){
 			Route::get('findCateType/{cate_id}','TypeTwoProductController@findType')->middleware('rbac.permission:product.view');
 		});
 	});
-	// Route::group(['prefix'=>'construction','namspace'=>"Construction"], function(){
-	// 	Route::post('list','Construction\ConstructionController@list')->middleware('rbac.permission:construction.view');
-	// 	Route::post('create','Construction\ConstructionController@create')->middleware('rbac.permission:construction.create');
-	// 	Route::get('edit/{id}','Construction\ConstructionController@edit')->middleware('rbac.permission:construction.view');
-	// 	Route::get('listPro','Construction\ConstructionController@listProduct')->middleware('rbac.permission:construction.view');
-	// });
 	Route::group(['prefix'=>'solution','namspace'=>"Solution"], function(){
 		Route::post('list','SolutionController@list')->middleware('rbac.permission:solution.view');
 		Route::post('create','SolutionController@create')->middleware('rbac.permission:solution.create');

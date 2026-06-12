@@ -15,7 +15,6 @@ class AuthController extends Controller
     use AuthenticatesUsers;
     public function login(Request $request,User $admin)
     {
-        dd($request->all());
     	$request->validate($admin->rule());
     	$arr = request(['name','password']);
     	if (!Auth::attempt($arr)) {
