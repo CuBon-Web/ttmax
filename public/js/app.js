@@ -6813,7 +6813,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.loadings(true);
       this.retrieveToken(this.objLogin).then(function () {
         _this.$router.push({
-          name: "list_project_category"
+          name: "listProduct"
         });
 
         window.location.reload();

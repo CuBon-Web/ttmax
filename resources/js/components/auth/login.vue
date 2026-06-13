@@ -73,7 +73,7 @@ export default {
       this.loadings(true);
       this.retrieveToken(this.objLogin) 
         .then(() => {
-          this.$router.push({ name: "list_project_category" });
+          this.$router.push({ name: "listProduct" }); 
           window.location.reload();
         })
         .catch((error) => {
