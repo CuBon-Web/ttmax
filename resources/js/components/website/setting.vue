@@ -60,7 +60,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Fax</label>
+                  <label>Link video giới thiệu</label>
                   <vs-input
                     type="text"
                     size="default"

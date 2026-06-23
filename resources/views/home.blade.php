@@ -286,7 +286,7 @@
         <div class="outer-box">
           <div class="bg-image wow reveal-top tm-gsap-img-parallax overflow-hidden"><img src="/frontend/images/video2-1.jpg" alt=""></div>
           <div class="video-box wow fadeInUp animated" data-wow-delay="200ms">
-            <a class="play-now-one play-now" href="https://www.youtube.com/watch?v=hddwAIXbKZo" data-fancybox="gallery" data-caption="">
+            <a class="play-now-one play-now" href="{{$setting->fax}}" data-fancybox="gallery" data-caption="">
               <i class="fa-sharp fa-solid fa-play"></i>
             </a>
           </div>

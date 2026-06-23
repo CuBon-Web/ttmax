@@ -353282,7 +353282,7 @@ var render = function() {
                 "div",
                 { staticClass: "form-group" },
                 [
-                  _c("label", [_vm._v("Fax")]),
+                  _c("label", [_vm._v("Link video giới thiệu")]),
                   _vm._v(" "),
                   _c("vs-input", {
                     staticClass: "w-100",
